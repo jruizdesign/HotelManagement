@@ -1,4 +1,4 @@
-/** @type {import('tailwindcss').Config} */
+\/** @type {import('tailwindcss').Config} */
 const config = {
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
@@ -6,7 +6,12 @@ const config = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ['var(--font-geist-sans)'],
+        mono: ['var(--font-geist-mono)'],
+      },
+    },
   },
   plugins: [],
 };
