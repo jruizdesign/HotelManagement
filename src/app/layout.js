@@ -4,15 +4,15 @@ import { GeistSans } from 'geist/font/sans';
 import { GeistMono } from 'geist/font/mono';
 
 // Initialize fonts
-const geistSans = localFont({
-  src: "./fonts/geist-sans-variable.woff2",
-  variable: "--font-geist-sans",
-});
+//const geistSans = localFont({
+  //src: "./fonts/geist-sans-variable.woff2",
+  //variable: "--font-geist-sans",
+//});
 
-const geistMono = localFont({
-  src: "./fonts/geist-mono-variable.woff2",
-  variable: "--font-geist-mono",
-});
+//const geistMono = localFont({
+  //src: "./fonts/geist-mono-variable.woff2",
+  //variable: "--font-geist-mono",
+//});
 
 export const metadata = {
   title: "Create Next App",
