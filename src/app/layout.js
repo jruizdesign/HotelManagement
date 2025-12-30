@@ -2,7 +2,17 @@ import localFont from "next/font/local";
 import "./globals.css";
 import { GeistSans } from 'geist/font/sans';
 import { GeistMono } from 'geist/font/mono';
+import { GeistSans } from "geist/font/sans";
 
+export default function RootLayout({
+  children,
+}) {
+  return (
+    <html lang="en" className={GeistSans.className}>
+      <body>{children}</body>
+    </html>
+  )
+}
 // Initialize fonts
 //const geistSans = localFont({
   //src: "./fonts/geist-sans-variable.woff2",
