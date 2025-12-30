@@ -1,11 +1,4 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  postcss: {
-    plugins: [
-      'tailwindcss',
-      'autoprefixer',
-    ],
-  },
-};
+const nextConfig = {};
 
 export default nextConfig;
